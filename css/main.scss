@@ -1,0 +1,66 @@
+@import 'partials/typo/typo';
+@import 'partials/var';
+@import 'partials/index';
+
+
+.parallax-container {
+    height: "80vh";
+  };
+
+#cqrlm {
+  background: #000000 url("../images/cqrlm2.png") fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  p {
+    color: $main-color;
+    font-family: $police_button;
+  }
+
+};
+#evi {
+  background: #000000 url("../images/evi.png") fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  p {
+    color: $main-color;
+    font-family: $police_button;
+  }
+          
+};
+#journey {
+  background: #000000 url("../images/journey.jpg") fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  p {
+    color: $main-color;
+    font-family: $police_button;
+  }
+          
+};
+#troupe {
+  background: url("../images/caroussel/journey/5.jpg") fixed;
+  background-size: 100%;
+
+  p {
+    color: $main-color;
+    font-family: $police_button;
+  }
+
+};
+
+.map-responsive {   
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  };
+  
+  .map-responsive iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  };
+
+  
