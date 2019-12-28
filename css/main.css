@@ -161,4 +161,8 @@ blockquote {
   position: absolute;
 }
 
+.sidenav-overlay {
+  z-index: 2 !important;
+}
+
 /*# sourceMappingURL=main.css.map */
