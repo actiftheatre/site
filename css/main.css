@@ -103,6 +103,31 @@ blockquote {
   font-size: 1em;
 }
 
+.modal-content h3 {
+  font-family: Impact;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+.modal-content p {
+  font-family: latoregular;
+}
+.modal-content a {
+  font-family: gravityregular;
+  outline: none;
+  font-weight: bold;
+}
+
+.histoire {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.titre {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 10vh;
+}
+
 .parallax-container {
   height: "80vh";
 }
