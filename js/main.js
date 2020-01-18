@@ -33,5 +33,6 @@ $(document).ready(function(){
       preventScrolling: false,
     });
   });
+ 
 
   var toastEVI = '<span class="center"><b>Expérience de Vie Imminente</b> <br> Représentations prochainement!</span><a href="evi.html" class="btn-flat toast-action">RÉSERVER</a>';
