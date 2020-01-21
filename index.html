@@ -2,10 +2,10 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>La Cie Et BIM! Théâtre - Jeune théâtre contemporain - Grenoble</title>
+    <title>La Cie Et BIM! Théâtre - Jeune théâtre amateur contemporain - Grenoble</title>
 	<meta property="og:description" name="description" content="" />
 	<meta property="og:image" content="jpg/thumbnail/site.jpg" />
-    <meta name="copyright" content="2020 - Cie du Vif Théâtre - Tous droits réservés">   
+    <meta name="copyright" content="2020 - Cie ET BIM! Théâtre - Tous droits réservés">   
 	<link rel="stylesheet" href="css/module_css/materialize.css">
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -21,7 +21,7 @@
       <a href="#intro" style="margin-left: 1%; font-family: gravitybold; font-size: 1.5em;">Cie Et BIM! Théâtre</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down" style="margin-right: 1%;">
-        <li><a href="#modal1" class="waves-effect waves-deep-orange accent-2 deep-orange accent-2 modal-trigger btn"><b>Soutenir la Cie</b></a></li>
+        <li><a href="#modal1" class="waves-effect waves-deep-orange accent-2 deep-orange accent-2 modal-trigger btn disabled"><b>Soutenir la Cie</b></a></li>
         <li><a href="#">Les Actus</a></li>
                     <li><a href="#spectacles">Les spectacles</a></li>
                     <li><a href="#equipe">La Cie</a></li>
@@ -35,15 +35,14 @@
         <br>
         <div class="row">
             <div class="col">                
-                <h5 class="light grey-text text-lighten-3" style="padding-top: 1%;">Vous pouvez soutenir la Cie en faisant un don!</h5>
-                
+                <h5 class="light grey-text text-lighten-3" style="padding-top: 1%;">Vous pouvez soutenir la Cie en faisant un don!</h5>               
             </div>
             <div class="col"></div>
             <div class="col">
                 <br>
                 <a class="waves-effect waves-deep-orange accent-2 deep-orange accent-2 btn">Faire un don</a>
             </div>
-        </div>               
+        </div>            
     </div>
     <div class="modal-footer purple darken-3">
       <a href="#!" class="modal-close waves-effect waves-green grey-text text-lighten-3 btn-flat">Fermer</a>
@@ -212,7 +211,7 @@
                             Simplement.</p>
                           </div>
                           <div class="card-action">
-                            <a href="asso.html">Découvrir l'association</a>
+                            <a href="#equipe">Découvrir l'association</a>
                             <a href="equipe.html">Découvrir la Troupe</a>
                           </div>
                         </div>
@@ -246,7 +245,7 @@
                 <p class="flow-text">
                   Tous nos spectacles sont à prix libre et conscient pour le public. Ils sont financés intégralement par les subventions et vos dons!                  
                 </p>
-                <a href="#modal1" class="waves-effect waves-deep-orange accent-2 deep-orange accent-2 modal-trigger btn"><b>Faire un don</b></a>
+                <a href="#modal1" class="waves-effect waves-deep-orange accent-2 deep-orange accent-2 modal-trigger btn disabled"><b>Faire un don</b></a>
               </div>
             </div>
             
@@ -309,8 +308,7 @@
                   <li><a class="grey-text text-lighten-3"></a><i class="material-icons">call</i>+33(0)6 25 75 62 01</a></li>
                   <li><a class="grey-text text-lighten-3"><i class="material-icons">mail</i>etbimtheatre@gmail.com</a></li>
                   <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">language</i>https://etbimtheatre.fr</a></li>
-                  <li><a class="grey-text text-lighten-3">Siret n°</a></li>
-                  <li><a class="grey-text text-lighten-3">Code APE</a></li>
+                 
                                   
                 </ul>
               </div>
@@ -339,7 +337,7 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2020 La Cie ET BIM! Théâtre - Tous droits réservés.
+            © 2020 Cie ET BIM! Théâtre - Tous droits réservés.
             
             </div>
           </div>
@@ -361,10 +359,10 @@
   function send() {
     emailjs.send('gmail', 'template_28HzbHUi', templateParams).then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
-       alert('merci')
+       alert('Merci pour votre message')
     }, function(error) {
        console.log('FAILED...', error);
-       alert('dommage')
+       alert('Dommage, il faut réessayer')
     });
 
   }
