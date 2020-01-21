@@ -30,7 +30,7 @@
 };
 #journey {
   background: #000000 url("../images/journey.jpg") fixed;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   p {
     color: $main-color;
