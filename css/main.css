@@ -144,7 +144,7 @@ blockquote {
 
 #evi {
   background: #000000 url("../images/evi.jpg") fixed;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 #evi p {
@@ -164,7 +164,7 @@ blockquote {
 
 #troupe {
   background: url("../images/caroussel/journey/5.jpg") fixed;
-  background-size: 100%;
+  background-size: cover;
 }
 #troupe p {
   color: #ffffff;
