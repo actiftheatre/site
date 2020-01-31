@@ -195,4 +195,8 @@ blockquote {
   z-index: 2 !important;
 }
 
+a {
+  outline: none;
+}
+
 /*# sourceMappingURL=main.css.map */
