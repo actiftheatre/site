@@ -16,6 +16,10 @@ $(document).ready(function(){
   });
 
   $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+
+  $(document).ready(function(){
     $('.scrollspy').scrollSpy();
   });
 
