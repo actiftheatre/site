@@ -20,59 +20,342 @@
   gtag('config', 'UA-157459625-1');
 </script>	
     </head>
-    <body id="troupe">
+    <body id="troupe" class="troupe">
         <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper black">
                   <a href="#troupe" style="margin-left: 1%; font-family: gravitybold; font-size: 1.5em;">La Troupe</a>
                   <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                   <ul class="right hide-on-med-and-down" style="margin-right: 1%;">                          
+                    <li><a href="#mes">À la mise en scène</a></li>
+                    <li><a href="#acteurs">Au jeu</a></li>
+                    <li><a href="#techos">À la technique</a></li>
+                    <li><a href="#admin">À l'administration</a></li>
                     <li><a href="index.html">Retour au site</a></li>
                   </ul>
                 </div>
               </nav>
             
               <ul class="sidenav" id="mobile-demo">                                   
-                    <li><a class="sidenav-close" href="index.html">Retour au site</a></li>
+                <li><a class="sidenav-close" href="#mes">À la mise en scène</a></li>
+                <li><a class="sidenav-close" href="#acteurs">Au jeu</a></li>
+                <li><a class="sidenav-close" href="#techos">À la technique</a></li>
+                <li><a class="sidenav-close" href="#admin">À l'administration</a></li>    
+                <li><a class="sidenav-close" href="index.html">Retour au site</a></li>
               </ul>
             
         </div>
               
-       <div>
-           
-        <div class="row" style="margin-top: 2vh;">
-            <div class="col s10 m10 l4 offset-l7 z-depth-3">                    
-                    <p class="center" style="font-style: bold; font-size: 1.5em; margin-top: 10%;">Dans la Troupe :</p>
-                    <p class="center">
-                        <p style="font-style: bold; color: #ffd3a2;">AU JEU</p>
-                         <p>Emma BIGHELLI<br>
-                            Amandine CAVALLI<br>
-                            Lou CHATAGNAT<br>
-                            Maëlle CHOTARD<br>
-                            Eva FRANCO<br>
-                            Angel GIOANNI<br>
-                            Justine IBARS<br>
-                            Elina KHENICHE<br>
-                            Yaël LIEUGARD <br>
-                            Clémentine SIMON<br>
-                            Emma VENANS<br>                            
-                        </p>                       
-                        <p style="font-style: bold; color: #ffd3a2;">À LA MISE EN SCÈNE</p>
-                        <p>Florian DELGADO<br>
-                            Annelore CHILLAT <br>                            
-                        </p>
-                        <p style="font-style: bold; color: #ffd3a2;">À LA CRÉATION DÉCORS / 3D</p>
-                        <p>Tristan DELGADO<br>
-                        Andréa CAITUCOLI</p>
-                        <p style="font-style: bold; color: #ffd3a2;">AUX LUMIÈRES</p>
-                        <p>Fernand CATRY<br>
-                            Thomas BORREL
-                        </p>
-                        <p style="font-style: bold; color: #ffd3a2;">À LA RÉGIE VIDÉO / PLATEAU</p>
-                        <p style="margin-bottom: 30vh;">Thomas CORRENOZ</p>
-                                              
-            </div>            
-        </div>
+       <div class="container center z-depth-4"> 
+         <h1>DANS LA TROUPE</h1> 
+         <div id="mes" class=" container divider"></div>
+         <br>
+         <h2>À LA MISE EN SCÈNE</h2>                 
+           <div class="row">
+             <div class="col"></div>
+             <div class="col offset-l2">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portraits/flo.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Florian DELGADO<i class="material-icons right">more_vert</i></span>
+                  <p><a>Metteur en scène / Président</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Florian DELGADO<i class="material-icons right">close</i></span>
+                  <p class="description">Comédien formé au Conservatoire de Grenoble, il obtient son Diplôme d'Études Théâtrales en 2008. Depuis, il joue essentiellement dans la compagnie grenobloise Le Théâtre du Risque. Il est aussi éducateur populaire et enseigne le théâtre à des amateurs depuis 2009 dans différentes structures de l'agglomération grenobloise.</p>
+                </div>
+              </div>
+             </div>
+             <div class="col offset-l1">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portraits/annelore2.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Annelore CHILLAT<i class="material-icons right">more_vert</i></span>
+                  <p><a>Metteuse en scène</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Annelore CHILLAT<i class="material-icons right">close</i></span>
+                  <p class="description">Diplomée en Master histoire de l'art et Management de projets évènementiels et culturels en 2013, elle travaille ensuite au sein de différents milieux artistiques (art contemporain, art numérique, théâtre, cinéma,...) en tant que chef décors ou bien encore chargé de production ou de diffusion. En 2019, elle rejoint la cie Act'If théâtre à la mise en scène du spectacle "Expérience de Vie Imminente". </p>
+                </div>
+              </div>
+             </div>                
+           </div>
+           <div id="acteurs"></div>
+           <h2>AU JEU</h2>           
+           <div class="row" style="margin-top: 5vh;">
+            <div class="col"></div>
+            <div class="col offset-l1">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portraits/emmaB.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Emma BIGHELLI<i class="material-icons right">more_vert</i></span>
+                  <p><a>Comédienne</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Emma BIGHELLI<i class="material-icons right">close</i></span>
+                  <p class="description">Comédienne formée à l'atelier Théâtre du CSC Malraux depuis 2019, elle a participé à plusieurs spectacles dont une comédie musicale. Elle interprète plusieurs rôles dans le spectacle "Celle qui regarde le monde"</p>
+                </div>
+              </div>
+             </div>
+             <div class="col">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portraits/amandine.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Amandine CAVALLI<i class="material-icons right">more_vert</i></span>
+                  <p><a>Comédienne</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Amandine CAVALLI<i class="material-icons right">close</i></span>
+                  <p class="description">Comédienne formée à l'atelier Théâtre du CSC Malraux depuis 2016, elle interprète le rôle de la commissaire (et d'autres rôles secondaires) dans le spectacle "Celle qui regarde le monde". Elle assure également la régie plateau sur le spectacle "Expérience de Vie Imminente".</p>
+                </div>
+              </div>
+             </div>
+             <div class="col">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portraits/lou.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Lou CHATAGNAT<i class="material-icons right">more_vert</i></span>
+                  <p><a>Comédienne</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Lou CHATAGNAT<i class="material-icons right">close</i></span>
+                  <p class="description">Comédienne formée à l'atelier Théâtre du CSC Malraux depuis 2013, elle interprète le rôle de la journaliste (et d'autres rôles secondaires) dans le spectacle "Celle qui regarde le monde".</p>
+                </div>
+              </div>
+             </div>
+           </div>
+           <div class="row">
+            <div class="col"></div>
+            <div class="col offset-l1">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portraits/maelle.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Maëlle CHOTARD<i class="material-icons right">more_vert</i></span>
+                  <p><a>Comédienne</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Maëlle CHOTARD<i class="material-icons right">close</i></span>
+                  <p class="description">Comédienne formée à l'atelier Théâtre du CSC Malraux depuis 2019, elle interprète plusieurs rôles dans le spectacle "Celle qui regarde le monde"</p>
+                </div>
+              </div>
+             </div>
+             <div class="col">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portraits/eva.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Eva FRANCO<i class="material-icons right">more_vert</i></span>
+                  <p><a>Comédienne</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Eva FRANCO<i class="material-icons right">close</i></span>
+                  <p class="description">Comédienne formée à l'atelier Théâtre du CSC Malraux depuis 2015, elle interprète le rôle de la commissaire ainsi que celui de la psychologue (et d'autres rôles secondaires) dans le spectacle "Celle qui regarde le monde".</p>
+                </div>
+              </div>
+             </div>
+             <div class="col">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portraits/angel.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Angel GIOANNI<i class="material-icons right">more_vert</i></span>
+                  <p><a>Comédien</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Angel GIOANNI<i class="material-icons right">close</i></span>
+                  <p class="description">Comédien formée à l'atelier Théâtre du CSC Malraux depuis 2019, il interprète plusieurs rôles dans le spectacle "Celle qui regarde le monde"</p>
+                </div>
+              </div>
+             </div>
+           </div>
+           <div class="row">
+            <div class="col"></div>
+            <div class="col offset-l1">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portraits/justine.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Justine IBARS<i class="material-icons right">more_vert</i></span>
+                  <p><a>Comédienne</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Justine IBARS<i class="material-icons right">close</i></span>
+                  <p class="description">Comédienne formée à l'atelier Théâtre du CSC Malraux depuis 2012, elle interprète le rôle de la commissaire (et d'autres rôles secondaires) dans le spectacle "Celle qui regarde le monde".</p>
+                </div>
+              </div>
+             </div>
+             <div class="col">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portraits/elina.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Elina KHENICHE<i class="material-icons right">more_vert</i></span>
+                  <p><a>Comédienne</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Elina KHENICHE<i class="material-icons right">close</i></span>
+                  <p class="description">Comédienne formée à l'atelier Théâtre du CSC Malraux depuis 2012, elle interprète le rôle de Déa dans le spectacle "Celle qui regarde le monde".</p>
+                </div>
+              </div>
+             </div>
+             <div class="col">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portraits/yael.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Yaël LIEUGARD<i class="material-icons right">more_vert</i></span>
+                  <p><a>Comédien</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Yaël LIEUGARD<i class="material-icons right">close</i></span>
+                  <p class="description">Comédien formée à l'atelier Théâtre du CSC Malraux depuis 2018, il interprète le rôle d'Énis dans le spectacle "Celle qui regarde le monde".</p>
+                </div>
+              </div>
+             </div>
+           </div>
+           <div class="row">
+            <div class="col"></div>
+            <div class="col offset-l2">
+             <div class="card z-depth-4">
+               <div class="card-image waves-effect waves-block waves-light">
+                 <img class="activator" src="images/portraits/clem.jpg">
+               </div>
+               <div class="card-content">
+                 <span class="card-title activator grey-text text-darken-4">Clémentine SIMON<i class="material-icons right">more_vert</i></span>
+                 <p><a>Comédienne</a></p>
+               </div>
+               <div class="card-reveal">
+                 <span class="card-title grey-text text-darken-4">Clémentine SIMON<i class="material-icons right">close</i></span>
+                 <p class="description">Comédienne formée à l'atelier Théâtre du CSC Malraux depuis 2015, elle interprète le rôle de Déa dans le spectacle "Celle qui regarde le monde". Elle interprète également le rôle titre dans "Expérience de Vie Imminente"</p>
+               </div>
+             </div>
+            </div>
+            <div class="col offset-l1">
+             <div class="card z-depth-4">
+               <div class="card-image waves-effect waves-block waves-light">
+                 <img class="activator" src="images/portraits/emmaV.jpg">
+               </div>
+               <div class="card-content">
+                 <span class="card-title activator grey-text text-darken-4">Emma VENANS<i class="material-icons right">more_vert</i></span>
+                 <p><a>Comédienne</a></p>
+               </div>
+               <div class="card-reveal">
+                 <span class="card-title grey-text text-darken-4">Emma VENANS<i class="material-icons right">close</i></span>
+                 <p class="description">Comédienne formée à l'atelier Théâtre du CSC Malraux depuis 2015, elle interprète le rôle de la commissaire (et d'autres rôles secondaires) dans le spectacle "Celle qui regarde le monde".</p>
+               </div>
+             </div>
+            </div>                
+          </div>
+          <div id="techos"></div>
+          <h2>À LA TECHNIQUE</h2>
+          <div class="row">
+            <div class="col"></div>
+            <div class="col offset-l2">
+             <div class="card z-depth-4">
+               <div class="card-image waves-effect waves-block waves-light">
+                 <img class="activator" src="images/portraits/thomas.jpg">
+               </div>
+               <div class="card-content">
+                 <span class="card-title activator grey-text text-darken-4">Thomas CORRENOZ<i class="material-icons right">more_vert</i></span>
+                 <p><a>Régisseur Plateau / Vidéo</a></p>
+               </div>
+               <div class="card-reveal">
+                 <span class="card-title grey-text text-darken-4">Thomas CORRENOZ<i class="material-icons right">close</i></span>
+                 <p class="description">Formé dans un premier temps au jeu au sein de l'atelier théâtre du CSC Malraux, il s'oriente ensuite dans des études en Maths Physique. Il intègre la troupe en 2018 dans les spectacles "Celle qui regarde le monde" et "Journéy" pour lesquels il fait la régie plateau et vidéo</p>
+               </div>
+             </div>
+            </div>
+            <div class="col offset-l1">
+             <div class="card z-depth-4">
+               <div class="card-image waves-effect waves-block waves-light">
+                 <img class="activator" src="images/portraits/tristan.jpg">
+               </div>
+               <div class="card-content">
+                 <span class="card-title activator grey-text text-darken-4">Tristan DELGADO<i class="material-icons right">more_vert</i></span>
+                 <p><a>Graphiste 3D</a></p>
+               </div>
+               <div class="card-reveal">
+                 <span class="card-title grey-text text-darken-4">Tristan DELGADO<i class="material-icons right">close</i></span>
+                 <p class="description">Après avoir obtenu son diplôme, en 2014, il se spécialise dans le temps réel et le jeu
+                  vidéo en travaillant pour plusieurs studios français.                
+                  Désireux d'utiliser ses compétences dans le domaine du spectacle vivant, il collabore
+                  avec son frère pour réaliser des visuels pour des spectacles amateurs de théâtre
+                  comme « l’Incitation au voyage » et « Les Chroniques du Grand Mouvement ».
+                  Il travaille aussi avec la compagnie "Le Théâtre du risque" sur le spectacle « Zig et
+                  More » pour laquelle il réalise un visuel 3D.
+                  En 2019, il participe à la création de JOURNÉY mis en scène par Florian Delgado
+                  pour lequel, il réalise des décors virtuels interactifs en temps réel.</p>
+               </div>
+             </div>
+            </div>                
+          </div>
+          <div id="admin"></div>
+          <h2>À L'ADMINISTRATION</h2>
+          <div id="techos" class="row">
+            <div class="col"></div>
+            <div class="col offset-l1">
+             <div class="card z-depth-4">
+               <div class="card-image waves-effect waves-block waves-light">
+                 <img class="activator" src="images/portraits/andrea.jpeg">
+               </div>
+               <div class="card-content">
+                 <span class="card-title activator grey-text text-darken-4">Andréa CAITUCOLI<i class="material-icons right">more_vert</i></span>
+                 <p><a>Vice-Présidente</a></p>
+               </div>
+               <div class="card-reveal">
+                 <span class="card-title grey-text text-darken-4">Andréa CAITUCOLI<i class="material-icons right">close</i></span>
+                 <p class="description">Biographie en cours d'écriture</p>
+               </div>
+             </div>
+            </div>
+            <div class="col">
+             <div class="card z-depth-4">
+               <div class="card-image waves-effect waves-block waves-light">
+                 <img class="activator" src="images/portraits/philippe.jpg">
+               </div>
+               <div class="card-content">
+                 <span class="card-title activator grey-text text-darken-4">Philippe CHATAGNAT<i class="material-icons right">more_vert</i></span>
+                 <p><a>Secrétaire</a></p>
+               </div>
+               <div class="card-reveal">
+                 <span class="card-title grey-text text-darken-4">Philippe CHATAGNAT<i class="material-icons right">close</i></span>
+                 <p class="description">Biographie en cours d'écriture</p>
+               </div>
+             </div>
+            </div>
+            <div class="col">
+              <div class="card z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portraits/celine.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Céline RODRIGUEZ<i class="material-icons right">more_vert</i></span>
+                  <p><a>Trésorière</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Céline RODRIGUEZ<i class="material-icons right">close</i></span>
+                  <p class="description">Biographie en cours d'écriture</p>
+                </div>
+              </div>
+             </div>                
+          </div>
        </div>
 
         <script src="js/jquery.min.js"></script>

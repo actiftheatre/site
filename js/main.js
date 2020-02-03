@@ -15,7 +15,6 @@ $(document).ready(function(){
     indicators: true,
   });
 
-
   $(document).ready(function(){
     $('.scrollspy').scrollSpy();
   });

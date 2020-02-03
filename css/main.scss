@@ -2,6 +2,7 @@
 @import 'partials/var';
 @import 'partials/index';
 @import 'partials/spectacles';
+@import 'partials/troupe';
 
 
 .parallax-container {
@@ -51,12 +52,6 @@
 #troupe {
   background: url("../images/caroussel/cqrlm/5.png") fixed;
   background-size: cover;
-
-  p {
-    color: $main-color;
-    font-family: $police_button;
-  }
-
 };
 
 .map-responsive {   

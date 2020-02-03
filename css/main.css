@@ -117,6 +117,11 @@ blockquote {
   font-weight: bold;
 }
 
+.card-title {
+  font-family: keep_calm_medregular;
+  font-size: 1.3em !important;
+}
+
 .histoire {
   font-weight: bold;
   font-size: 1.5em;
@@ -128,6 +133,57 @@ blockquote {
   margin-top: 10vh;
 }
 
+.troupe h1 {
+  color: #ffffff;
+  margin-bottom: 5vh;
+  font-size: 3em;
+}
+.troupe h2 {
+  color: #ffffff;
+  margin-bottom: 5vh;
+  font-size: 2em;
+}
+.troupe img {
+  object-fit: cover;
+  width: 200px;
+  height: 300px;
+}
+.troupe .card-content {
+  width: 300px;
+  height: 120px;
+  margin-left: 1vw;
+}
+.troupe span {
+  font-family: latoregular;
+}
+.troupe span.card-title {
+  font-size: 1.4em;
+}
+.troupe a {
+  font-family: keep_calm_medregular;
+}
+.troupe p {
+  font-family: latoregular;
+  color: grey !important;
+}
+.troupe p.description {
+  padding: 3%;
+  text-align: justify !important;
+  font-size: 1em;
+}
+
+@media (max-width: 320px) {
+  .troupe img {
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+  }
+  .troupe .card-content {
+    width: 250px;
+    height: 120px;
+    margin-left: 1vw;
+  }
+}
 .parallax-container {
   height: "80vh";
 }
@@ -170,10 +226,6 @@ blockquote {
 #troupe {
   background: url("../images/caroussel/cqrlm/5.png") fixed;
   background-size: cover;
-}
-#troupe p {
-  color: #ffffff;
-  font-family: keep_calm_medregular;
 }
 
 .map-responsive {
