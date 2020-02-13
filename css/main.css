@@ -145,7 +145,7 @@ blockquote {
 }
 .troupe img {
   object-fit: cover;
-  max-width: 280px;
+  width: 280px !important;
   height: 300px;
 }
 .troupe .card-content {
