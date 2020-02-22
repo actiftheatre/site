@@ -35,6 +35,18 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "caviarBold";
+  src: url("./font/caviardreams_bold-webfont.woff2"), url("./font/caviardreams_bold-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "caviarDreams";
+  src: url("./font/caviardreams-webfont.woff2"), url("./font/caviardreams-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "Impact";
   src: url("./font/Impact.woff2"), url("./font/Impact.woff");
   font-weight: normal;
@@ -70,14 +82,26 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "caviarBold";
+  src: url("./font/caviardreams_bold-webfont.woff2"), url("./font/caviardreams_bold-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "caviarDreams";
+  src: url("./font/caviardreams-webfont.woff2"), url("./font/caviardreams-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
 h1 {
-  font-family: Impact;
+  font-family: caviarBold;
   text-transform: uppercase;
   font-size: 4em;
 }
 
 h2 {
-  font-family: keep_calm_medregular;
+  font-family: caviarBold;
   text-transform: uppercase;
   font-size: 3em;
 }
@@ -99,12 +123,12 @@ p {
 }
 
 blockquote {
-  font-family: keep_calm_medregular;
+  font-family: caviarBold;
   font-size: 1em;
 }
 
 .modal-content h3 {
-  font-family: Impact;
+  font-family: caviarBold;
   text-transform: uppercase;
   font-size: 2em;
 }
@@ -118,7 +142,7 @@ blockquote {
 }
 
 .card-title {
-  font-family: keep_calm_medregular;
+  font-family: caviarBold;
   font-size: 1.3em !important;
 }
 
@@ -160,7 +184,7 @@ blockquote {
   font-size: 1.4em;
 }
 .troupe a {
-  font-family: keep_calm_medregular;
+  font-family: caviarBold;
 }
 .troupe p {
   font-family: latoregular;
@@ -200,7 +224,7 @@ blockquote {
 }
 #cqrlm p {
   color: #ffffff;
-  font-family: keep_calm_medregular;
+  font-family: caviarBold;
 }
 
 #evi {
@@ -210,7 +234,7 @@ blockquote {
 }
 #evi p {
   color: #ffffff;
-  font-family: keep_calm_medregular;
+  font-family: caviarBold;
 }
 
 #journey {
@@ -220,7 +244,7 @@ blockquote {
 }
 #journey p {
   color: #ffffff;
-  font-family: keep_calm_medregular;
+  font-family: caviarBold;
 }
 
 #troupe {
