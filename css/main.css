@@ -129,7 +129,7 @@ p {
 }
 
 .nav-wrapper a {
-  font-family: caviarBold;
+  font-family: gravityregular;
   outline: none;
   text-align: justify;
 }
@@ -159,16 +159,18 @@ blockquote {
 }
 
 .spectacle .histoire {
+  font-family: caviarBold !important;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 .spectacle .titre {
+  font-family: caviarBold !important;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2em;
   margin-top: 10vh;
 }
 .spectacle p {
-  font-family: latoregular;
+  font-family: latoregular !important;
 }
 
 .troupe h1 {
@@ -198,7 +200,7 @@ blockquote {
   font-size: 1.4em;
 }
 .troupe a {
-  font-family: caviarBold;
+  font-family: gravityregular;
 }
 .troupe p {
   font-family: latoregular;
