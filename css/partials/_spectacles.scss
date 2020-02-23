@@ -1,9 +1,14 @@
-.histoire {    
-    font-weight: bold;
-    font-size: 1.5em;    
-};
-.titre {    
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-top: 10vh;
-};
+.spectacle {
+    .histoire {    
+        font-weight: bold;
+        font-size: 1.5em;    
+    };
+    .titre {    
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-top: 10vh;
+    };
+    p {
+        font-family: $police_texte;
+    }
+}

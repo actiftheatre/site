@@ -1,7 +1,7 @@
 h1 {
     font-family: $police_titre;
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 3.5em;
 };
 h2 {
     font-family: $police_button;
@@ -9,7 +9,7 @@ h2 {
     font-size: 3em;
 };
 h3 {
-    font-family: $police_sousTitre;
+    font-family: $police_titre;
     text-transform: uppercase;
     font-size: 2em;
 };
@@ -18,7 +18,7 @@ p {
 };
 .nav-wrapper {    
     a {
-        font-family: $police_sousTitre;
+        font-family: $police_titre;
         outline: none;
         text-align: justify;
     }
