@@ -7,6 +7,7 @@ $(document).ready(function(){
   $(document).ready(function(){
     $('.slider').slider({
       indicators: true,
+      duration : 800,
     });
   });
 
